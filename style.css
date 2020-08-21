@@ -146,4 +146,16 @@ body.light .clock {
   -webkit-box-shadow: 0 -8px 15px rgba(255, 255, 255, 0.5), 20px 20px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.05), inset 0 15px 15px rgba(49, 21, 21, 0.1);
           box-shadow: 0 -8px 15px rgba(255, 255, 255, 0.5), 20px 20px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.05), inset 0 15px 15px rgba(49, 21, 21, 0.1);
 }
+
+body.light .clock::before {
+  background: #008eff;
+}
+
+body.light .clock .min .mn::before {
+  background: #091921;
+}
+
+body.light .clock .sec .sc::before {
+  background: #008eff;
+}
 /*# sourceMappingURL=style.css.map */
