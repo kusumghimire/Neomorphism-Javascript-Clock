@@ -121,7 +121,7 @@ body.light {
   position: absolute;
   width: 2px;
   height: 150px;
-  background: #fff;
+  background: #008eff;
   z-index: 12;
   border-radius: 6px 6px 0 0;
 }
@@ -137,6 +137,31 @@ body.light {
           justify-content: center;
   position: absolute;
   border-radius: 50%;
+}
+
+.toggleClass {
+  position: absolute;
+  top: 30px;
+  right: 150px;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  background: #d1dae3;
+  color: #d1dae3;
+  border-radius: 50%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toggleClass::before {
+  position: absolute;
+  left: -88px;
+  content: 'Light Mode';
 }
 
 body.light .clock {
@@ -159,30 +184,12 @@ body.light .clock .sec .sc::before {
   background: #008eff;
 }
 
-.toggleClass {
-  position: absolute;
-  top: 30px;
-  right: 150px;
-  width: 20px;
-  height: 20px;
-  font-size: 18px;
-  background: #d1dae3;
-  color: #d1dae3;
-  border-radius: 50%;
-  background: red;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+body.light .toggleClass {
+  background: #091921;
+  color: #091921;
 }
 
-.toggleClass::before {
-  position: absolute;
-  left: 25px;
-  content: 'Light Mode';
+body.light .toggleClass::before {
+  content: 'Dark Mode';
 }
 /*# sourceMappingURL=style.css.map */
