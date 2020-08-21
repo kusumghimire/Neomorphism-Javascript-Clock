@@ -158,4 +158,31 @@ body.light .clock .min .mn::before {
 body.light .clock .sec .sc::before {
   background: #008eff;
 }
+
+.toggleClass {
+  position: absolute;
+  top: 30px;
+  right: 150px;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  background: #d1dae3;
+  color: #d1dae3;
+  border-radius: 50%;
+  background: red;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toggleClass::before {
+  position: absolute;
+  left: 25px;
+  content: 'Light Mode';
+}
 /*# sourceMappingURL=style.css.map */
