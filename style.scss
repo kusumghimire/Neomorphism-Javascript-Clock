@@ -1,16 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background: #091921;
 }
-.clock{
+.clock {
   width: 350px;
   height: 350px;
   display: flex;
